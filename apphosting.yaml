@@ -7,7 +7,7 @@ runConfig:
   # cpu: 1
   # memoryMiB: 512
 
-# Environment variables and secrets.
+  # Environment variables and secrets.
 env:
   # Configure environment variables.
   # See https://firebase.google.com/docs/app-hosting/configure#user-defined-environment
@@ -19,5 +19,5 @@ env:
 
   # Grant access to secrets in Cloud Secret Manager.
   # See https://firebase.google.com/docs/app-hosting/configure#secret-parameters
-  - variable: PUBLIC_DATOCMS_API_KEY
-    secret: projects/824308335279/secrets/PUBLIC_DATOCMS_API_KEY
+  - variable: PUBLIC_DATOCOMS_API_KEY
+    secret: PUBLIC_DATOCOMS_API_KEY
