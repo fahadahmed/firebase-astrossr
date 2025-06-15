@@ -20,4 +20,4 @@ env:
   # Grant access to secrets in Cloud Secret Manager.
   # See https://firebase.google.com/docs/app-hosting/configure#secret-parameters
   - variable: PUBLIC_DATOCMS_API_KEY
-    secret: ${PUBLIC_DATOCMS_API_KEY}
+    secret: PUBLIC_DATOCMS_API_KEY
