@@ -21,3 +21,5 @@ env:
   # See https://firebase.google.com/docs/app-hosting/configure#secret-parameters
   - variable: PUBLIC_DATOCOMS_API_KEY
     secret: PUBLIC_DATOCOMS_API_KEY
+  - variable: PUBLIC_DATOCMS_API_KEY
+    secret: PUBLIC_DATOCMS_API_KEY
